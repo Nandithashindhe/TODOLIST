@@ -112,7 +112,7 @@ button:hover {
 }
 
 .header {
-    background-image: url('bg.png');
+    background-image: url('images/bg.png');
     background-size: cover;
     background-position: center;
     padding: 30px 40px;
