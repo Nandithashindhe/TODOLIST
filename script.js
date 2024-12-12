@@ -2,7 +2,7 @@ function addTaskButtons(li) {
     var doneBtn = document.createElement("button");
     doneBtn.className = "doneBtn";
     var doneImg = document.createElement("img");
-    doneImg.src = "done.png";
+    doneImg.src = "images/done.png";
     doneImg.alt = "Done";
     doneBtn.appendChild(doneImg);
     li.appendChild(doneBtn);
@@ -10,7 +10,7 @@ function addTaskButtons(li) {
     var removeBtn = document.createElement("button");
     removeBtn.className = "removeBtn";
     var removeImg = document.createElement("img");
-    removeImg.src = "remove.png";
+    removeImg.src = "images/remove.png";
     removeImg.alt = "Remove";
     removeBtn.appendChild(removeImg);
     li.appendChild(removeBtn);
@@ -21,7 +21,7 @@ function addTaskButtons(li) {
         removeBtn.style.display = "none";
 
         var completedImg = document.createElement("img");
-        completedImg.src = "completed.png";
+        completedImg.src = "images/completed.png";
         completedImg.alt = "Completed";
         var completedText = document.createElement("span");
         completedText.className = "doneText";
@@ -77,7 +77,7 @@ function triggerConfetti() {
     confettiContainer.classList.add('confetti');
 
     var confettiImage = document.createElement('img');
-    confettiImage.src = 'confetti.png';
+    confettiImage.src = 'images/confetti.png';
     confettiImage.alt = 'Confetti';
 
     confettiContainer.appendChild(confettiImage);
